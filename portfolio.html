@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio page</title>
     <link
-      rel="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <div class="container main-container">
+      <div class="container main-container-portfolio">
         <nav class="nav">
           <a href="/" class="logo-header">
             <span class="logo-header-blue">Web</span>
@@ -70,7 +75,12 @@
             <li class="item">
               <a class="projects link" href="">
                 <div class="pj-link">
-                  <img src="./image-portfolio/img.jpg" alt="img" width="370" />
+                  <img
+                    class="work"
+                    src="./image-portfolio/img.jpg"
+                    alt="img"
+                    width="370"
+                  />
                   <p class="secondary-text">
                     Технокряк это современная площадка распространения
                     коронавируса. Компании используют эту платформу для
@@ -85,6 +95,7 @@
               <a class="projects link" href="">
                 <div class="pj-link">
                   <img
+                    class="work"
                     src="./image-portfolio/img1.jpg"
                     alt="Poster"
                     width="370"
@@ -105,6 +116,7 @@
               <a class="projects" href="">
                 <div class="pj-link">
                   <img
+                    class="work"
                     src="./image-portfolio/img2.jpg"
                     alt="Seafood"
                     width="370"
@@ -123,6 +135,7 @@
               <a class="projects" href="">
                 <div class="pj-link">
                   <img
+                    class="work"
                     src="./image-portfolio/img3.jpg"
                     alt="headphones"
                     width="370"
@@ -140,7 +153,12 @@
             <li class="item">
               <a class="projects" href="">
                 <div class="pj-link">
-                  <img src="./image-portfolio/img4.jpg" alt="box" width="370" />
+                  <img
+                    class="work"
+                    src="./image-portfolio/img4.jpg"
+                    alt="box"
+                    width="370"
+                  />
                   <p class="secondary-text">
                     Технокряк это современная площадка распространения
                     коронавируса. Компании используют эту платформу для
@@ -155,6 +173,7 @@
               <a class="projects" href="">
                 <div class="pj-link">
                   <img
+                    class="work"
                     src="./image-portfolio/img5.jpg"
                     alt="monitor"
                     width="370"
@@ -175,6 +194,7 @@
               <a class="projects" class="projects" href="">
                 <div class="pj-link">
                   <img
+                    class="work"
                     src="./image-portfolio/img6.jpg"
                     alt="book"
                     width="370"
@@ -194,7 +214,12 @@
             <li class="item">
               <a class="projects" href="">
                 <div class="pj-link">
-                  <img src="./image-portfolio/img7.jpg" alt="lab" width="370" />
+                  <img
+                    class="work"
+                    src="./image-portfolio/img7.jpg"
+                    alt="lab"
+                    width="370"
+                  />
                   <p class="secondary-text">
                     Технокряк это современная площадка распространения
                     коронавируса. Компании используют эту платформу для
@@ -209,6 +234,7 @@
               <a class="projects" href="">
                 <div class="pj-link">
                   <img
+                    class="work"
                     src="./image-portfolio/img8.jpg"
                     alt="notebook"
                     width="370"
@@ -247,30 +273,30 @@
         <div class="social">
           <b class="join">присоединяйтесь</b>
           <ul class="icone-link list">
-            <li class="social-link">
+            <li>
               <a class="icon" href="" aria-label="Ссылка на Instagram">
-                <svg width="20" height="20">
+                <svg class="social-link" width="20" height="20">
                   <use href="./image/sprite.svg#instagram-2"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-link">
+            <li>
               <a class="icon" href="" aria-label="Ссылка на Twitter">
-                <svg width="20" height="20">
+                <svg class="social-link" width="20" height="20">
                   <use href="./image/sprite.svg#twitter-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-link">
+            <li>
               <a class="icon" href="" aria-label="Ссылка на Facebook">
-                <svg width="20" height="20">
+                <svg class="social-link" width="20" height="20">
                   <use href="./image/sprite.svg#facebook-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-link">
+            <li>
               <a class="icon" href="" aria-label="Ссылка на Linkedin">
-                <svg width="20" height="20">
+                <svg class="social-link" width="20" height="20">
                   <use href="./image/sprite.svg#linkedin-1"></use>
                 </svg>
               </a>
@@ -278,7 +304,7 @@
           </ul>
         </div>
         <div class="subscribing">
-          <b>Подпишитесь на рассылку</b>
+          <b class="join">подпишитесь на рассылку</b>
           <p class="text-mail">E-mail</p>
           <a href="" class="button-footer"
             >Подписаться
